@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+.products-list {
+    width: 700px;
+    margin: 0 auto;
+    padding: 24px 35px;
+    list-style-type: none;
+    background-color: #020202;
+    border-radius: 16px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.add-todo-form {
+    display: flex;
+    align-items: center;
+    width: 690px;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.add-todo-input {
+    width: 100%;
+    margin-right: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.todo-name {
+    margin-right: auto;
+    margin-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.todo-edit-btn {
+    margin-right: 10px;
+}
+
+.todo-delete-btn {
+
 }
